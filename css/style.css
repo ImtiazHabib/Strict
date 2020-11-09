@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+		font-family: 'Open Sans', sans-serif;
+
+		font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+
+a,a:hover{
+	text-decoration:none;
+}
+/*global css start*/
+.container{
+	width:1140px;
+	margin: 0px auto;
+}
+.row{
+	width:100%;
+	float: left;
+}
+.col-md-12{
+	width:100%;
+	float: left;
+}
+/*global css end*/
+
+/*header section start*/
+
+.header_section{
+	width:100%;
+	float: left;
+	background:#f6f9f9;
+}
+.logo{
+	width: 100%;
+	float: left;
+	padding:15px 0px;
+}
+/*header part end*/
+/*banner section start*/
+.banner_section {
+    width: 100%;
+    float: left;
+    padding-top: 95px;
+    padding-bottom: 20px;
+    background: url(../images/banner.jpg) center top no-repeat;
+    background-size: cover;
+}
+.banner_section .banner_inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 90px auto 25px;
+
+}
+.banner_section .banner_inner h2 {
+    
+    line-height: 15px;
+    font-size: 51px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+.banner_section .banner_inner .divider{
+	width: 40%;
+	
+	background: #15a4fa;
+	height: 3px;
+	margin: 15px auto;
+
+
+}
+.banner_section .banner_inner p {
+    color: white;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+.banner_section .banner_inner .btn_inner {
+    border: 2px solid #15a4fa;
+    color: white;
+    background: transparent;
+    padding: 12px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 47px;
+}
+.banner_section .banner_inner .icon{
+padding-top: 37px;
+}
+
+/*banner section end*/
