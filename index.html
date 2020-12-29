@@ -8,6 +8,14 @@
 	<!-- style.css linking here -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <!-- responsive css linking here  -->
+  <link rel="stylesheet" href="css/responsive.css">
+   <!-- animate css linking here  -->
+    <link rel="stylesheet" href="css/animate.css">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<!-- font awesome linking here  -->
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
@@ -18,13 +26,31 @@
 	<!-- header part start -->
 	<header class="header-section">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+			<div class="row ">
+				<div class="col-md-6">
 					<div class="logo">
 						<a href="index.html">
 							<img src="images/logo.png">
 						</a>
 					</div>
+				</div>
+				<div class="col-md-6">
+					<nav class="navbar-brand ">
+						<ul>
+							<li>
+								<a href="#">HOME</a>
+							</li>
+							<li>
+								<a href="#">ABOUT US</a>
+							</li>
+							<li>
+								<a href="#">GELLARY</a>
+							</li>
+							<li>
+								<a href="#">CONTACT US</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			
 			</div>
@@ -36,14 +62,14 @@
 	<section class="banner-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 wow animate__animated animate__jello" data-wow-duration="2s" data-wow-delay="1s">
 					<div class="banner-inner">
 						<h2>STRICT</h2>
 						<div class="divider"></div>
 						<p>STRICT is a responsive theme with a a clean and minimal look.</p>
 						<a href="" class="btn-inner">Call to action</a>
 						<div class="icon">
-							<img src="images/icon.png">
+							<a href="#" class="icon_img"> <img src="images/icon.png"> </a>
 						</div>
 					</div>
 				</div>
@@ -58,7 +84,7 @@
 	<section class="simple-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 wow animate__animated animate__pulse" data-wow-duration="2s" data-wow-delay="1s">
 					<div class="simple-inner">
 						<h2>Simple & pure design.</h2>
 						<p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a<br/> countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design<br/> community. It can be easy to spot a good example of clean design.</p>
@@ -78,7 +104,7 @@
      	<div class="container">
      		<div class="row">
      			<!-- feature one -->
-     			<div class="col-md-4">
+     			<div class="col-md-4  wow animate__animated animate__shakeX" data-wow-duration="2s" data-wow-delay="2s">
      				<div class="feature-inner">
      					<a href="">
      						<img src="images/feature1.png">
@@ -96,7 +122,7 @@
      				
      			</div>
      			<!-- feature two -->
-     			<div class="col-md-4">
+     			<div class="col-md-4  wow animate__animated animate__shakeY" data-wow-duration="2s" data-wow-delay="3s">
      				<div class="feature-inner">
      					<a href="">
      						<img src="images/feature2.png">
@@ -115,7 +141,7 @@
      				
      			</div>
      			<!-- feature three -->
-     			<div class="col-md-4">
+     			<div class="col-md-4  wow animate__animated animate__swing" data-wow-duration="2s" data-wow-delay="4s">
      				<div class="feature-inner">
      					<a href="">
      						<img src="images/feature3.png">
@@ -142,7 +168,7 @@
       <section class="portfolio-section">
       	<div class="container">
       		<div class="row">
-      			<div class="col-md-12">
+      			<div class="col-md-12  wow animate__animated animate__heartBeat" data-wow-duration="2s" data-wow-delay="3s">
       				<div class="title">
       					<h2>Showcase your work like a pro.</h2>
       					<p> Contact me if you like my work</p>
@@ -151,7 +177,7 @@
       		</div>
       		<!-- row 2 -->
       		<div class="row">
-      			<div class="col-md-4">
+      			<div class="col-md-4 wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">
       				<div class="inner-portfolio">
       					<img src="images/p1.png" alt="">
 
@@ -186,7 +212,7 @@
       			</div>
 
 
-      			<div class="col-md-4">
+      			<div class="col-md-4 wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="2s">
       				<div class="inner-portfolio">
       					<img src="images/p3.png" alt="">
 
@@ -208,7 +234,7 @@
       		<!--   portfolio row 3 -->
 
       		<div class="row gap">
-      			<div class="col-md-4">
+      			<div class="col-md-4 wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">
       				<div class="inner-portfolio">
       					<img src="images/p4.png" alt="">
 
@@ -243,7 +269,7 @@
       			</div>
 
 
-      			<div class="col-md-4">
+      			<div class="col-md-4 wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="2s">
       				<div class="inner-portfolio">
       					<img src="images/p6.png" alt="">
 
@@ -333,10 +359,10 @@
        			</div>
        			<div class="col-md-6">
        				<ul class="social-icons">
-       					<li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
-       					<li><a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
-       					<li><a href="#"><i class="fa fa-google-plus " aria-hidden="true"></i></a></li>
-       					<li><a href="#"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+       					<li><a href="#" class=" wow animate__animated animate__lightSpeedInRight" data-wow-duration="2s" data-wow-delay="1s"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+       					<li><a href="#"><i class="fa fa-twitter wow animate__animated animate__lightSpeedInRight" data-wow-duration="2s" data-wow-delay="2s" aria-hidden="true"></i></a></li>
+       					<li><a href="#"><i class="fa fa-google-plus wow animate__animated animate__lightSpeedInRight" data-wow-duration="2s" data-wow-delay="3s"  aria-hidden="true"></i></a></li>
+       					<li><a href="#"><i class="fa fa-linkedin wow animate__animated animate__lightSpeedInRight" data-wow-duration="2s" data-wow-delay="4s" aria-hidden="true"></i></a></li>
        				</ul>
        				
        			</div>
@@ -345,5 +371,16 @@
        </footer>
 
        <!-- footer section end -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+       
+    <!-- wow js linking here  -->
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+   
+
+
   </body>
 </html>
